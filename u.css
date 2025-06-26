@@ -1,0 +1,198 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white; 
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:80px;
+    background-color: rgb(2, 2, 61);
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:23px;
+    align-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav li a:hover{
+ color: rgb(175, 127, 221);
+ cursor:pointer;
+ font-size: 1.4rem;
+}
+
+nav li:active{
+    background-color: rgb(1,1,39);
+}
+
+main hr{
+    border:0;
+    background: #9c97f1;
+    margin: 40px 84px;
+    height: 1.2px;
+}
+.left{
+    font-size: 2rem;
+}
+
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin:110px;
+}
+.firstSection  div{
+    width:30%;
+}
+.leftSection{
+    font-size: 3rem;
+    
+}
+.leftSection p{
+    width:600px;
+}
+.leftSection div{
+width:600px;
+}
+.rightSection{
+   color: white;
+}
+.rightSection img{
+    height: 400px;
+    width:400px;
+    object-fit: cover;
+    margin:50px;
+}
+.purple{
+    color:rgb(147, 64, 225);
+}
+.text-grey{
+    color: gray;
+}
+#element{
+     color:rgb(147, 64, 225);
+}
+.buttons button{
+    margin-top: 40px;
+     background-color: rgb(2, 2, 61);
+    border: 2px solid white;
+    border-radius:5% ;
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+}
+.buttons button:active{
+     background-color: purple;
+    border: 2px solid white;
+    border-radius:5% ;
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+}
+.buttons button{
+     cursor: pointer;
+}
+.secondSection {
+    max-width: 80vw;
+    margin:auto;
+    height: 60vh;
+}
+.secondSection h1{
+    font-size: 1.6rem;
+    
+}
+.secondSection .box{
+    background-color: white;
+    width:80vw;
+    height: 2px;
+    margin:54px 0px;
+    display:flex;
+    justify-content: space-around;
+}
+.verticle{
+    height: 90px;
+    width:2px;
+    background-color: white;
+}
+.verticle img{
+    height:40px;
+    width:40px;
+    object-fit: cover;
+    position: relative;
+    bottom: 40px;
+    right:20px;
+}
+.verticle-text{
+    width:200px;
+    position: relative;
+    top: 50px;
+}
+.verticle-desc{
+    font-size: 11px;
+    position: relative;
+    top: 50px;
+    width:200px;
+    margin-top:1rem;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    background-color:rgb(1, 1, 24);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    background-color:rgb(1, 1, 24); 
+
+}
+ .footer-second ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-second ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.text-center i{
+   background-color:rgb(1, 1, 24); 
+
+}
+.text-center{
+    text-align: center;
+}
+.footer-third ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-third ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.footer-fourth ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-fourth ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}

@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white; 
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:80px;
+    background-color: rgb(2, 2, 61);
+}
+#element{
+    font-size: 3rem;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:23px;
+    align-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav li a:hover{
+ color: rgb(175, 127, 221);
+ cursor:pointer;
+ font-size: 1.4rem;
+}
+.right{
+    display:flex;
+   
+}  
+nav li:active{
+    background-color: rgb(1,1,39);
+    /* main content */
+}
+.first-section{
+    height: 130vh;
+    
+}
+.first-section p{
+    margin:50px;
+    position: relative;
+    left:100px;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+#scrollbar{
+    height:700px;
+    width: 1000px;
+    margin-left:150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 33);
+}
+.child{
+    width:100%;
+    height:400px;
+    display: inline-block;
+    background-color: rgb(215, 192, 192);
+    margin:20px;
+    display:flex;
+    
+}
+#scrollbar::-webkit-scrollbar{
+    display: none;
+}
+/* footer part */
+.footer{
+    display: flex;
+    height: 200px;
+    background-color:rgb(1, 1, 24);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    background-color:rgb(1, 1, 24); 
+
+}
+ .footer-second ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-second ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.text-center i{
+   background-color:rgb(1, 1, 24); 
+
+}
+.text-center{
+    text-align: center;
+}
+.footer-third ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-third ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.footer-fourth ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-fourth ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+
+.pic{
+    height: 250px;
+    width:250px;
+    margin-top:20px;
+    background-image: url(games.webp);
+    background-image: cover;
+    display:inline-block;
+}
+.plate{
+    height: 350px;
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.plate p{
+    font-size: 1.6rem;
+    color: rgb(153, 149, 149);
+    margin: 0px;
+    position: relative;
+    right:50px;
+}
+.plate div{
+    font-size:2rem;
+    color: black;
+}
+.content{
+    width:350px;
+    height:250px;
+    margin:0px 50px;
+}
+.content p{
+    font-size:2rem ;
+    color: black;
+    width: 300px;
+}
+.text{
+    color: gray;
+    line-height: 1;
+    font-size: 2rem;
+    height: 350px;
+}
+.pic2{
+     height: 250px;
+    width:250px;
+    margin-top:20px;
+    background-image: url(game2.avif);
+    background-size: cover;
+    display: inline-block;
+}
+.pic3{
+    height: 250px;
+    width:250px;
+    margin-top:20px;
+    background-image: url(game3.webp);
+    background-size: cover;
+    display: inline-block;
+}
+.pic4{
+    height: 250px;
+    width:250px;
+    margin-top:20px;
+    background-image: url(app\ development.webp);
+    background-size: cover;
+    display: inline-block;
+}
+.pic5{
+     height: 250px;
+    width:250px;
+    margin-top:20px;
+    background-image: url(customization.png);
+    background-size: cover;
+    display: inline-block;
+}
